@@ -63,11 +63,13 @@ button#generate:hover {
 .row {
     display: flex;
     flex-flow: row;
+    user-select: none;
 }
 
 .square {
     background: powderblue;
     /* border: 1px solid black; */
+    user-select: none;
 }
 
 footer {
