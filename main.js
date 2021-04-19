@@ -49,7 +49,7 @@ btnGen.onclick = () => {
     console.log(inpSize)
     let size = parseInt(inpSize.value)
     console.log(size)
-    if (size > 100 || size < 16) {
+    if (size > 100 || size < 16 || isNaN(size)) {
         alert("Please enter a valid size: 16-100");
         return;
     }
